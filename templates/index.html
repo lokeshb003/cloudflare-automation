@@ -6,11 +6,14 @@
   h1 {
     text-align: center;
   }
+  #dnsmanager {
+    text-align: center;
+  }
 </style>
 </head>
 <body>
 <h1>Cloudflare DNS Manager</h1>
-<form method="post" action="/">
+<form method="post" id="dnsmanager" action="/">
   <p>Enter your Cloudflare Global API Key:</p><input type="text" name="user_input">
   <p>Enter your Zone ID:</p><input type="text" name="zone_id">
   <p>Enter the Record Type:</p><input type="text" name="record_type">
